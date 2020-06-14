@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+}
+
+.bg-purple{
+    background-color: #390040!important;
+}
+
+.bg-green{
+    background-color: #62c198 !important;
+}
+
+.logo{
+    width: 5% !important;
+    margin-top: -2%;
+    margin-right: 2%;
+}
+
+input.invalid {
+    border-color: #DD2C00;
+}
+
+.table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+textarea {
+    resize: none;
+}
+
+.w-15{
+    width: 15%!important;
+}
+
+.pl-10{
+    padding-left: 6rem !important;
+}
+
+.ml-10{
+    margin-left: 6rem !important;
+}
+
+h4 a:hover{
+    text-decoration: none;
+}
+
+.opciones .dropdown-toggle::after {
+    content: none;
+}
+
+.opciones li:hover > div.dropdown-menu {
+    display: block;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}
+
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+.card-text{
+    font-size: 14px;
+}
+
+.badge{
+    padding: .90em .90em !important;
+}
+
+.font-size-12{
+    font-size: 12px !important;
+}
+
+.font-size-10{
+    font-size: 10px !important;
+}
+
+.bg-oscuro{
+    background: #000000 !important;
+}
+
+.bg-neon{
+    background: #44133f !important;
+}
+
+.text-neon{
+    color: #44133f !important;
+}
+
+.btn-neon{
+    background: #d13380 !important;
+}
+
+.btndos-neon{
+    background: #88145e !important;
+}
+
+.bg-anagrama{
+    background: #415f5d !important;
+}
+
+.text-anagrama{
+    color: #415f5d !important;
+}
+
+.btn-anagrama{
+    background: #43453a !important;
+}
+
+.btndos-anagrama{
+    background: #656b5d !important;
+}
+
+.bg-pantera{
+    background: #4b4428 !important;
+}
+
+.text-pantera{
+    color: #4b4428 !important;
+}
+
+.btn-pantera{
+    background: #a47138 !important;
+}
+
+.btndos-pantera{
+    background: #311d14 !important;
+}
