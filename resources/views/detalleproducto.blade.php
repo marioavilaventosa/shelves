@@ -9,9 +9,9 @@
     @endif
     <div class="row mt-4 d-flex justify-content-center {{$colorSecundario}}">
         @if ($productos->imagen == "")
-            <img src="{{url('/img/default.png')}}" alt="Sin imagen" class="img-fluid col-md-3 ml-5"><br>
+            <img src="{{url('/img/default.png')}}" alt="Sin imagen" class="img-fluid col-md-3 mr-5"><br>
         @else
-            <img class="img-fluid col-md-3 ml-5" src="{{asset('/img')}}/{{$productos->imagen}}" alt="{{$productos->imagen}}">
+            <img class="img-fluid col-md-3 mr-5" src="{{asset('/img')}}/{{$productos->imagen}}" alt="{{$productos->imagen}}">
         @endif
         <div class="col-md-4 ml-4">
             <div class="row">
