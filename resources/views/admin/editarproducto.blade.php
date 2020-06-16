@@ -33,7 +33,7 @@
         <label for="precio" class="pt-3">Precio: </label><br>
         <input type="number" name="precio" id="precio" value="{{$productos->precio}}" step=".01" min="0" max="9999999" required><br>
         <label for="stock" class="pt-3">Stock: </label><br>
-        <input type="number" name="stock" id="stock" value="{{explode('/',$productos->stock)[0]}}" min="1" max="99999999999" required><br>
+        <input type="number" name="stock" id="stock" value="{{explode('/',$productos->stock)[0]}}" min="0" max="99999999999" required><br>
         <label for="tallas" class="pt-3">Tallas: </label><br>
         <select name="tallas" id="tallas">
             <option value="-">-</option>
