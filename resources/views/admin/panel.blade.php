@@ -6,7 +6,7 @@
    </div>
    @if (!$paypal)
         <div class="alert alert-danger mr-3 mt-2 col-md-12">
-            No tienes configurado tu cuenta de Paypal, sin esto los usuarios no podrán hacer compras. Ve a "Apariencia" y agrega tu cuenta.
+            No tienes configurado tu cuenta de Paypal, sin esto los usuarios no podrán hacer compras. Ve a "Mi Cuenta" y agrega tu cuenta.
         </div>
     @endif
 
